@@ -1,5 +1,5 @@
 // Logo
-import bl33hIcon from "./logo/bl33hIcon.png";
+import bl33hIcon from "./logo/logo_single.png";
 
 // Technologies
 import htmlIcon from "./tech/html.png";

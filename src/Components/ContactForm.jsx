@@ -10,15 +10,15 @@ const ContactForm = () => {
 		e.preventDefault();
 
 		emailjs
-			.sendForm("whoisbl33h", "template1", e.target, "JjC_Nnt4rUsjIsRtz")
+			.sendForm("service_rio00k7", "template_pe7c7q5", e.target, "_U04pvnqHjZPYQd_t")
 			.then(
 				(result) => {
 					document.getElementById("contact_form").reset();
 					setIsSent(true);
-					alert("Thank you I will get back to you as soon as possible ! (:");
+					alert("Thank you I will get back to you as soon as possible :)");
 				},
 				(error) => {
-					console.error(error);
+					console.error(error);x	
 					setIsSent(false);
 				}
 			);
@@ -30,7 +30,7 @@ const ContactForm = () => {
 				backgroundImage:
 					"url(https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png)",
 				width: "80%",
-				height: "96%",
+				height: "80%",
 				boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
 			}}
 		>
@@ -54,24 +54,13 @@ const ContactForm = () => {
 					className="w-[80%] h-full flex flex-col gap-4 pt-4 text-grayscale-200"
 				>
 					<div className="w-full flex flex-col">
-						<label htmlFor="firstname">First Name</label>
+						<label htmlFor="fullName">First Name</label>
 						<input
 							className="p-[0.5em] rounded-xl text-grayscale-950"
-							placeholder="Enter your First Name"
+							placeholder="Enter your Full Name"
 							id="firstname"
 							type="text"
 							name="from_name"
-							required
-						/>
-					</div>
-					<div className="w-full flex flex-col">
-						<label htmlFor="lastname">Last Name</label>
-						<input
-							className="p-[0.5em] rounded-xl text-grayscale-950"
-							placeholder="Enter your Last Name"
-							id="lastname"
-							type="text"
-							name="from_last"
 							required
 						/>
 					</div>
@@ -80,9 +69,9 @@ const ContactForm = () => {
 						<input
 							className="p-[0.5em] rounded-xl text-grayscale-950"
 							placeholder="Enter your E-mail"
-							id="email"
+							id="email_id"
 							type="email"
-							name="from_email"
+							name="email_id"
 							required
 						/>
 					</div>
