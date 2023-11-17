@@ -1,4 +1,3 @@
-import ProjectCards from "../Components/ProjectCards";
 import SectionTitle from "../Components/SectionTitle";
 
 const Scholarships = () => {
@@ -11,7 +10,6 @@ const Scholarships = () => {
             subtitle="What I have done so far"
           />
         </div>
-        {/* <Text> Scholarships here</Text> */}
       </div>
     </div>
   );

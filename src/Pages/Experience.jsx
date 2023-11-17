@@ -10,7 +10,6 @@ const Experiences = () => {
             subtitle="WHAT I'VE DONE SO FAR"
           />
         </div>
-        <Text> Some work experince here</Text>
       </div>
     </div>
   );
