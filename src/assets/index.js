@@ -18,6 +18,16 @@ import pyIcon from "./tech/py.png";
 import nodeIcon from "./tech/node.webp";
 import neoIcon from "./tech/neo.png";
 import raspIcon from "./tech/raspi.png";
+
+import flutterIcon from "./tech/flutter.png";
+import notionIcon from "./tech/notion.png";
+import mixpanelIcon from "./tech/mixpanel.png";
+import reactNativeIcon from "./tech/rn.png";
+import jiraIcon from "./tech/jira.png";
+import androidIcon from "./tech/android.png";
+import appsflyerIcon from "./tech/appsflyer.png";
+import firebaseIcon from "./tech/firebase.png";
+
 import close from "./close.svg";
 import menu from "./menu.svg";
 
@@ -53,4 +63,12 @@ export {
   memoryGame,
   avatar,
   bl33hIcon,
+  flutterIcon,
+  notionIcon,
+  mixpanelIcon,
+  firebaseIcon,
+  appsflyerIcon,
+  jiraIcon,
+  androidIcon,
+  reactNativeIcon,
 };
