@@ -1,5 +1,6 @@
 // Logo
-import bl33hIcon from "./logo/logo_single.png";
+import kaxpIcon from "./logo/logo_single.png";
+import kaxpIconFull from "./logo/kaxp.png";
 
 // Technologies
 import htmlIcon from "./tech/html.png";
@@ -27,6 +28,9 @@ import jiraIcon from "./tech/jira.png";
 import androidIcon from "./tech/android.png";
 import appsflyerIcon from "./tech/appsflyer.png";
 import firebaseIcon from "./tech/firebase.png";
+import download from "./icons/download.png";
+import downloadHover from "./icons/downloadHover.png";
+import resume from "./icons/resume.png";
 
 import close from "./close.svg";
 import menu from "./menu.svg";
@@ -62,7 +66,7 @@ export {
   calculator,
   memoryGame,
   avatar,
-  bl33hIcon,
+  kaxpIcon,
   flutterIcon,
   notionIcon,
   mixpanelIcon,
@@ -71,4 +75,8 @@ export {
   jiraIcon,
   androidIcon,
   reactNativeIcon,
+  kaxpIconFull,
+  download,
+  downloadHover,
+  resume,
 };
