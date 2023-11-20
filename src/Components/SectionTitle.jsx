@@ -1,10 +1,10 @@
 import { m, LazyMotion, domAnimation } from "framer-motion";
 
 const SectionTitle = (props) => {
-  const { title, subtitle } = props;
+  const { title, subtitle, message } = props;
 
   return (
-    <LazyMotion features={domAnimation} strict> 
+    <LazyMotion features={domAnimation} strict>
       <m.div
         initial={{ x: -350 }}
         whileInView={{ x: 0 }}
@@ -23,15 +23,30 @@ const SectionTitle = (props) => {
         </span>
         <h2
           className="tracking-wider text-7xl sm:text-8xl md:text-9xl"
-          style={{ fontFamily: "Morganite Black"}}
+          style={{ fontFamily: "Morganite Black" }}
         >
           {title.split("").map((char, index) => {
-            if(char === " ") {
+            if (char === " ") {
               return " ";
             }
-            return <span key={index} className="bounce">{char}</span>
+            return (
+              <span key={index} className="bounce">
+                {char}
+              </span>
+            );
           })}
         </h2>
+
+        <span
+          className="opacity-50"
+          style={{
+            textTransform: "uppercase",
+            fontFamily: "Poppins, sans-serif",
+            fontWeight: "600",
+          }}
+        >
+          {message}
+        </span>
       </m.div>
     </LazyMotion>
   );

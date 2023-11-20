@@ -2,6 +2,11 @@
 import kaxpIcon from "./logo/logo_single.png";
 import kaxpIconFull from "./logo/kaxp.png";
 
+import fazz from "./logo/fazz.png";
+import bn from "./logo/bn.png";
+import deqode from "./logo/deqode.png";
+import stealth from "./logo/stealth.png";
+
 // Technologies
 import htmlIcon from "./tech/html.png";
 import cssIcon from "./tech/css.png";
@@ -31,6 +36,8 @@ import firebaseIcon from "./tech/firebase.png";
 import download from "./icons/download.png";
 import downloadHover from "./icons/downloadHover.png";
 import resume from "./icons/resume.png";
+import pineapple from "./icons/pineapple.png";
+import pineappleHover from "./icons/pineappleHover.png";
 
 import close from "./close.svg";
 import menu from "./menu.svg";
@@ -41,7 +48,7 @@ import calculator from "./projects/calculator.jpg";
 import memoryGame from "./projects/memory.jpg";
 
 // Avatar
-import avatar from "./avatar/avatar.png";
+import avatar from "./avatar/avatar_new.jpg";
 
 export {
   menu,
@@ -79,4 +86,10 @@ export {
   download,
   downloadHover,
   resume,
+  fazz,
+  bn,
+  deqode,
+  stealth,
+  pineapple,
+  pineappleHover,
 };

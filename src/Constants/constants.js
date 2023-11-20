@@ -42,6 +42,10 @@ import {
   jiraIcon,
   androidIcon,
   reactNativeIcon,
+  fazz,
+  bn,
+  deqode,
+  stealth,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -72,6 +76,10 @@ const media = {
   jiraIcon,
   androidIcon,
   reactNativeIcon,
+  fazz,
+  bn,
+  deqode,
+  stealth,
 };
 
 const icons = {
@@ -119,6 +127,7 @@ export const navLinks = [
 
 const projects = [
   {
+    id: 1,
     name: "Fazz Agen",
     description:
       "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
@@ -126,18 +135,48 @@ const projects = [
     source_code_link:
       "https://play.google.com/store/apps/details?id=com.payfazz.android",
     demo_link: "https://arasarmemory.netlify.app/",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
   },
-  {
-    name: "BankSathi : Earn From Anywhere",
-    description:
-      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-    image: calculator,
-    source_code_link:
-      "https://play.google.com/store/apps/details?id=com.app.banksathi",
-    demo_link: "https://bl33hscalculator.netlify.app/",
-  },
+  // {
+  //   id: 2,
+  //   name: "BankSathi : Earn From Anywhere",
+  //   description:
+  //     "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+  //   image: calculator,
+  //   source_code_link:
+  //     "https://play.google.com/store/apps/details?id=com.app.banksathi",
+  //   demo_link: "https://bl33hscalculator.netlify.app/",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  // },
 
   {
+    id: 3,
     name: "PAYFAZZ Master Agen",
     description:
       "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
@@ -146,8 +185,23 @@ const projects = [
       "https://play.google.com/store/apps/details?id=com.safecash.transferapp&hl=enl&gl=US",
     demo_link:
       "https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
   },
   {
+    id: 4,
     name: "Empire Cinemas",
     description:
       "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
@@ -155,9 +209,24 @@ const projects = [
     source_code_link:
       "https://play.google.com/store/apps/details?id=com.binary.empirecinema",
     demo_link: "https://bl33hscalculator.netlify.app/",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
   },
 
   {
+    id: 5,
     name: "Capshun",
     description:
       "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
@@ -165,8 +234,23 @@ const projects = [
     source_code_link:
       "https://play.google.com/store/apps/details?id=com.capshun.co&hl=enl&gl=US",
     demo_link: "https://arasarmemory.netlify.app/",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
   },
   {
+    id: 6,
     name: "Commentr",
     description:
       "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
@@ -176,50 +260,55 @@ const projects = [
     demo_link:
       "https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
   },
-  {
-    name: "Star Cinemas",
-    description:
-      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-    image: calculator,
-    source_code_link:
-      "https://play.google.com/store/apps/details?id=tech.brij.star_cinema&hl=en_IE&gl=US",
-    demo_link: "https://bl33hscalculator.netlify.app/",
-  },
+  // {
+  //   id: 7,
+  //   name: "Star Cinemas",
+  //   description:
+  //     "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+  //   image: calculator,
+  //   source_code_link:
+  //     "https://play.google.com/store/apps/details?id=tech.brij.star_cinema&hl=en_IE&gl=US",
+  //   demo_link: "https://bl33hscalculator.netlify.app/",
+  // },
 
-  {
-    name: "GOGO Cinemas",
-    description:
-      "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
-    image: memoryGame,
-    source_code_link: "https://www.gogocinema.com/",
-    demo_link: "https://arasarmemory.netlify.app/",
-  },
-  {
-    name: "WooYourBoo",
-    description:
-      "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
-    image: pawsitivePrototype,
-    source_code_link: "https://www.wooyourboo.com/app",
-    demo_link:
-      "https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
-  },
-  {
-    name: "High Vibe",
-    description:
-      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-    image: calculator,
-    source_code_link: "https://www.highvibe.network/vibes",
-    demo_link: "https://bl33hscalculator.netlify.app/",
-  },
-  {
-    name: "Peggy",
-    description:
-      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-    image: calculator,
-    source_code_link:
-      "https://play.google.com/store/search?q=peggy&c=apps&hl=enl&gl=US",
-    demo_link: "https://bl33hscalculator.netlify.app/",
-  },
+  // {
+  //   id: 8,
+  //   name: "GOGO Cinemas",
+  //   description:
+  //     "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
+  //   image: memoryGame,
+  //   source_code_link: "https://www.gogocinema.com/",
+  //   demo_link: "https://arasarmemory.netlify.app/",
+  // },
+  // {
+  //   id: 9,
+  //   name: "WooYourBoo",
+  //   description:
+  //     "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
+  //   image: pawsitivePrototype,
+  //   source_code_link: "https://www.wooyourboo.com/app",
+  //   demo_link:
+  //     "https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
+  // },
+  // {
+  //   id: 10,
+  //   name: "High Vibe",
+  //   description:
+  //     "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+  //   image: calculator,
+  //   source_code_link: "https://www.highvibe.network/vibes",
+  //   demo_link: "https://bl33hscalculator.netlify.app/",
+  // },
+  // {
+  //   id: 11,
+  //   name: "Peggy",
+  //   description:
+  //     "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+  //   image: calculator,
+  //   source_code_link:
+  //     "https://play.google.com/store/search?q=peggy&c=apps&hl=enl&gl=US",
+  //   demo_link: "https://bl33hscalculator.netlify.app/",
+  // },
 ];
 
 const memoji = {
@@ -318,13 +407,6 @@ const skills = [
     description:
       "I have extensive experience utilizing Java for object-oriented programming (OOP) and implementing data structures.",
   },
-  // {
-  //   id: "aws",
-  //   title: "Amazon Web Services",
-  //   icon: awsIcon,
-  //   description:
-  //     "I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.",
-  // },
   {
     id: "figma",
     title: "Figma",
@@ -346,27 +428,6 @@ const skills = [
     description:
       "I am skilled in using GitHub for seamless project collaboration, code sharing, and issue tracking. Through GitHub, I efficiently create and manage repositories and effectively present my work to potential employers.",
   },
-  // {
-  //   id: "psql",
-  //   title: "Postgresql",
-  //   icon: psqlIcon,
-  //   description:
-  //     "I have a strong command of PostgreSQL, encompassing a wide range of skills such as database normalization, triggers, front-end connectivity, and data analysis using software like Power BI.",
-  // },
-  // {
-  //   id: "vite",
-  //   title: "Vite",
-  //   icon: viteIcon,
-  //   description:
-  //     "I have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.",
-  // },
-  // {
-  //   id: "py",
-  //   title: "Python",
-  //   icon: pyIcon,
-  //   description:
-  //     "With 3 years of Python experience, I am adept at coding functions and creating graphic interfaces using Tkinter.",
-  // },
   {
     id: "node",
     title: "Node JS",
@@ -374,57 +435,40 @@ const skills = [
     description:
       "When it comes to building web applications, I prefer using Node as my runtime environment over Yarn. I have expertise in leveraging Node.js to develop powerful and scalable web applications.",
   },
-  // {
-  //   id: "neo",
-  //   title: "Neo4j",
-  //   icon: neoIcon,
-  //   description:
-  //     "I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.",
-  // },
-  // {
-  //   id: "raspi",
-  //   title: "Raspberry Pi",
-  //   icon: raspIcon,
-  //   description:
-  //     "I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.",
-  // },
-  // {
-  //   id: "eslint",
-  //   title: "Eslint",
-  //   icon: eslintIcon,
-  //   description:
-  //     "I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.",
-  // },
 ];
 
 const experiences = [
+  // {
+  //   title: "Sr. Mobile Engineer",
+  //   company_name: "Stealth Startup - Fintech",
+  //   icon: stealth,
+  //   iconBg: "#FFFFFF",
+  //   date: "Mar 2023 - Present",
+  //   url: "",
+  // },
   {
-    title: "Front-End Developer",
-    company_name: "Cover Hunt",
-    icon: coverhunt,
-    iconBg: "#333333",
-    date: "Aug 2021 - Feb 2022",
+    title: "Mobile Engineer SE2",
+    company_name: "Fazz",
+    icon: fazz,
+    iconBg: "#FFFFFF",
+    date: "Nov 2021 - Dec 2022",
+    url: "https://fazz.com/",
   },
   {
-    title: "Mentor (Volunteer)",
-    company_name: "Microverse",
-    icon: microverse,
-    iconBg: "#333333",
-    date: "Mar 2022 - May 2022",
+    title: "Solution Engineer",
+    company_name: "Deqode",
+    icon: deqode,
+    iconBg: "#FFFFFF",
+    date: "Sep 2020 - Oct 2021",
+    url: "https://deqode.com/",
   },
   {
-    title: "Junior Software Engineer",
-    company_name: "Kelhel",
-    icon: kelhel,
-    iconBg: "#333333",
-    date: "May 2022 - Oct 2022",
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "Diversity Cyber Council",
-    icon: dcc,
-    iconBg: "#333333",
-    date: "Sep 2022 - Present",
+    title: "Mobile Developer",
+    company_name: "Binary Numbers IO",
+    icon: bn,
+    iconBg: "#FFFFFF",
+    date: "Aug 2018 - Aug 2020",
+    url: "https://binarynumbers.io/",
   },
 ];
 
