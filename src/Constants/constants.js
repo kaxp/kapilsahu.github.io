@@ -260,55 +260,55 @@ const projects = [
     demo_link:
       "https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
   },
-  // {
-  //   id: 7,
-  //   name: "Star Cinemas",
-  //   description:
-  //     "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-  //   image: calculator,
-  //   source_code_link:
-  //     "https://play.google.com/store/apps/details?id=tech.brij.star_cinema&hl=en_IE&gl=US",
-  //   demo_link: "https://bl33hscalculator.netlify.app/",
-  // },
+  {
+    id: 7,
+    name: "Star Cinemas",
+    description:
+      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+    image: calculator,
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=tech.brij.star_cinema&hl=en_IE&gl=US",
+    demo_link: "https://bl33hscalculator.netlify.app/",
+  },
 
-  // {
-  //   id: 8,
-  //   name: "GOGO Cinemas",
-  //   description:
-  //     "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
-  //   image: memoryGame,
-  //   source_code_link: "https://www.gogocinema.com/",
-  //   demo_link: "https://arasarmemory.netlify.app/",
-  // },
-  // {
-  //   id: 9,
-  //   name: "WooYourBoo",
-  //   description:
-  //     "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
-  //   image: pawsitivePrototype,
-  //   source_code_link: "https://www.wooyourboo.com/app",
-  //   demo_link:
-  //     "https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
-  // },
-  // {
-  //   id: 10,
-  //   name: "High Vibe",
-  //   description:
-  //     "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-  //   image: calculator,
-  //   source_code_link: "https://www.highvibe.network/vibes",
-  //   demo_link: "https://bl33hscalculator.netlify.app/",
-  // },
-  // {
-  //   id: 11,
-  //   name: "Peggy",
-  //   description:
-  //     "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-  //   image: calculator,
-  //   source_code_link:
-  //     "https://play.google.com/store/search?q=peggy&c=apps&hl=enl&gl=US",
-  //   demo_link: "https://bl33hscalculator.netlify.app/",
-  // },
+  {
+    id: 8,
+    name: "GOGO Cinemas",
+    description:
+      "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
+    image: memoryGame,
+    source_code_link: "https://www.gogocinema.com/",
+    demo_link: "https://arasarmemory.netlify.app/",
+  },
+  {
+    id: 9,
+    name: "WooYourBoo",
+    description:
+      "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
+    image: pawsitivePrototype,
+    source_code_link: "https://www.wooyourboo.com/app",
+    demo_link:
+      "https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
+  },
+  {
+    id: 10,
+    name: "High Vibe",
+    description:
+      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+    image: calculator,
+    source_code_link: "https://www.highvibe.network/vibes",
+    demo_link: "https://bl33hscalculator.netlify.app/",
+  },
+  {
+    id: 11,
+    name: "Peggy",
+    description:
+      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+    image: calculator,
+    source_code_link:
+      "https://play.google.com/store/search?q=peggy&c=apps&hl=enl&gl=US",
+    demo_link: "https://bl33hscalculator.netlify.app/",
+  },
 ];
 
 const memoji = {
