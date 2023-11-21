@@ -7,7 +7,7 @@ dotenv.config();
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: "doc",
+    outDir: "docs",
   },
   server: {
     host: true,
