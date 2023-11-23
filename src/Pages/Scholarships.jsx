@@ -1,4 +1,7 @@
 import SectionTitle from "../Components/SectionTitle";
+import { scholarships } from "../Constants/constants";
+
+import ScholarshipCards from "../Components/ScholarshipCards";
 
 const Scholarships = () => {
   return (
@@ -9,6 +12,11 @@ const Scholarships = () => {
             title="Scholarships"
             subtitle="What I have done so far"
           />
+        </div>
+        <div className="flex flex-row">
+          {scholarships.map((skill, index) => (
+            <ScholarshipCards key={skill.id} skill={skill} index={index} />
+          ))}
         </div>
       </div>
     </div>
