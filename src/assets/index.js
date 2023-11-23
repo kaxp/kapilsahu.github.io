@@ -6,6 +6,7 @@ import fazz from "./logo/fazz.png";
 import bn from "./logo/bn.png";
 import deqode from "./logo/deqode.png";
 import stealth from "./logo/stealth.png";
+import bs from "./logo/banksathi.webp";
 
 // Technologies
 import htmlIcon from "./tech/html.png";
@@ -92,4 +93,5 @@ export {
   stealth,
   pineapple,
   pineappleHover,
+  bs,
 };

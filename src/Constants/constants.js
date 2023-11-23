@@ -46,6 +46,7 @@ import {
   bn,
   deqode,
   stealth,
+  bs,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -80,6 +81,7 @@ const media = {
   bn,
   deqode,
   stealth,
+  bs,
 };
 
 const icons = {
@@ -150,31 +152,30 @@ const projects = [
       },
     ],
   },
-  // {
-  //   id: 2,
-  //   name: "BankSathi : Earn From Anywhere",
-  //   description:
-  //     "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-  //   image: calculator,
-  //   source_code_link:
-  //     "https://play.google.com/store/apps/details?id=com.app.banksathi",
-  //   demo_link: "https://bl33hscalculator.netlify.app/",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  // },
-
+  {
+    id: 2,
+    name: "BankSathi : Earn From Anywhere",
+    description:
+      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+    image: calculator,
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.app.banksathi",
+    demo_link: "https://bl33hscalculator.netlify.app/",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+  },
   {
     id: 3,
     name: "PAYFAZZ Master Agen",
@@ -309,6 +310,24 @@ const projects = [
       "https://play.google.com/store/search?q=peggy&c=apps&hl=enl&gl=US",
     demo_link: "https://bl33hscalculator.netlify.app/",
   },
+  {
+    id: 12,
+    name: "Denzil Machado",
+    description:
+      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+    image: calculator,
+    source_code_link: "https://www.denzilmachado.com/",
+    demo_link: "https://bl33hscalculator.netlify.app/",
+  },
+  {
+    id: 13,
+    name: "Unpaniq",
+    description:
+      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+    image: calculator,
+    source_code_link: "",
+    demo_link: "https://bl33hscalculator.netlify.app/",
+  },
 ];
 
 const memoji = {
@@ -438,14 +457,14 @@ const skills = [
 ];
 
 const experiences = [
-  // {
-  //   title: "Sr. Mobile Engineer",
-  //   company_name: "Stealth Startup - Fintech",
-  //   icon: stealth,
-  //   iconBg: "#FFFFFF",
-  //   date: "Mar 2023 - Present",
-  //   url: "",
-  // },
+  {
+    title: "Sr. Software Engineer",
+    company_name: "Banksathi",
+    icon: bs,
+    iconBg: "#ebfdf6",
+    date: "Mar 2023 - Present",
+    url: "banksathi.com",
+  },
   {
     title: "Mobile Engineer SE2",
     company_name: "Fazz",
@@ -472,6 +491,27 @@ const experiences = [
   },
 ];
 
+const scholarships = [
+  {
+    id: 1,
+    title: "Google India Challenge Scholarship",
+    issueDate: "Aug 2018",
+    url: "https://drive.google.com/file/d/1_pr7ZYXwyEW5DV-S8_p_D9niud-G45qi/view?usp=sharing",
+  },
+  {
+    id: 2,
+    title: "Intel® Edge AI Scholarship",
+    issueDate: "Mar 2020",
+    url: "https://drive.google.com/file/d/1cftoQblpagb3qIrcUdkkvodAkZpQgQSo/view",
+  },
+  {
+    id: 3,
+    title: "AWS Machine Learning Scholarship",
+    issueDate: "Aug 2018",
+    url: "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/3c27e024-f5db-49c6-874a-36321c9a6ceb.pdf?utm_campaign=sch_600_auto_ndxxx_aws-ml-completed_global&utm_source=blueshift&utm_medium=email&bsft_clkid=5c38e276-9e78-460a-99ae-7b6ef7bab4",
+  },
+];
+
 const markerSvg = `<svg viewBox="-4 0 36 36">
     <path fill="currentColor" d="M14,0 C21.732,0 28,5.641 28,12.6 C28,23.963 14,36 14,36 C14,36 0,24.064 0,12.6 C0,5.641 6.268,0 14,0 Z"></path>
     <circle fill="black" cx="14" cy="14" r="7"></circle>
@@ -486,4 +526,5 @@ export {
   projects,
   skills,
   experiences,
+  scholarships,
 };
