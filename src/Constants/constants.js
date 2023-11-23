@@ -25,7 +25,6 @@ import {
   htmlIcon,
   javaIcon,
   jsIcon,
-  memoryGame,
   neoIcon,
   nodeIcon,
   pawsitivePrototype,
@@ -47,6 +46,9 @@ import {
   deqode,
   stealth,
   bs,
+  aws1,
+  google,
+  intel,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -82,6 +84,9 @@ const media = {
   deqode,
   stealth,
   bs,
+  aws1,
+  google,
+  intel,
 };
 
 const icons = {
@@ -133,7 +138,7 @@ const projects = [
     name: "Fazz Agen",
     description:
       "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
-    image: memoryGame,
+    image: pawsitivePrototype,
     source_code_link:
       "https://play.google.com/store/apps/details?id=com.payfazz.android",
     demo_link: "https://arasarmemory.netlify.app/",
@@ -231,7 +236,7 @@ const projects = [
     name: "Capshun",
     description:
       "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
-    image: memoryGame,
+    image: pawsitivePrototype,
     source_code_link:
       "https://play.google.com/store/apps/details?id=com.capshun.co&hl=enl&gl=US",
     demo_link: "https://arasarmemory.netlify.app/",
@@ -277,7 +282,7 @@ const projects = [
     name: "GOGO Cinemas",
     description:
       "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
-    image: memoryGame,
+    image: pawsitivePrototype,
     source_code_link: "https://www.gogocinema.com/",
     demo_link: "https://arasarmemory.netlify.app/",
   },
@@ -305,7 +310,7 @@ const projects = [
     name: "Peggy",
     description:
       "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-    image: calculator,
+    image: pawsitivePrototype,
     source_code_link:
       "https://play.google.com/store/search?q=peggy&c=apps&hl=enl&gl=US",
     demo_link: "https://bl33hscalculator.netlify.app/",
@@ -324,7 +329,7 @@ const projects = [
     name: "Unpaniq",
     description:
       "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-    image: calculator,
+    image: pawsitivePrototype,
     source_code_link: "",
     demo_link: "https://bl33hscalculator.netlify.app/",
   },
@@ -494,20 +499,23 @@ const experiences = [
 const scholarships = [
   {
     id: 1,
+    icon: google,
     title: "Google India Challenge Scholarship",
     issueDate: "Aug 2018",
     url: "https://drive.google.com/file/d/1_pr7ZYXwyEW5DV-S8_p_D9niud-G45qi/view?usp=sharing",
   },
   {
     id: 2,
+    icon: intel,
     title: "Intel® Edge AI Scholarship",
     issueDate: "Mar 2020",
     url: "https://drive.google.com/file/d/1cftoQblpagb3qIrcUdkkvodAkZpQgQSo/view",
   },
   {
     id: 3,
+    icon: aws1,
     title: "AWS Machine Learning Scholarship",
-    issueDate: "Aug 2018",
+    issueDate: "Aug 2020",
     url: "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/3c27e024-f5db-49c6-874a-36321c9a6ceb.pdf?utm_campaign=sch_600_auto_ndxxx_aws-ml-completed_global&utm_source=blueshift&utm_medium=email&bsft_clkid=5c38e276-9e78-460a-99ae-7b6ef7bab4",
   },
 ];

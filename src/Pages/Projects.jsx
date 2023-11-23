@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Projects = () => {
-  const [active, setActive] = useState(3);
+  const [active, setActive] = useState(2);
 
   // Settings for the slick carousel
   const sliderSettings = {
@@ -36,7 +36,6 @@ const Projects = () => {
       />
 
       <motion.div
-        variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}

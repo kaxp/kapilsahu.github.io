@@ -30,7 +30,7 @@ const ScholarshipCards = ({ skill, index }) => {
             fontWeight: "400",
           }}
         >
-          {skill.description}
+          Issued Data: {skill.issueDate}
         </span>
       </div>
     </m.div>

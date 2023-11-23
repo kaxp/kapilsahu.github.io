@@ -2,7 +2,6 @@ import { githubIcon, pineapple, pineappleHover } from "../assets";
 import { fadeIn } from "../utils/motion";
 
 import React from "react";
-import { motion } from "framer-motion";
 
 const ProjectCards = ({
   id,
@@ -16,7 +15,7 @@ const ProjectCards = ({
   handleClick,
 }) => {
   return (
-    <motion.div
+    <div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className={`relative ${
         active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
@@ -112,7 +111,7 @@ const ProjectCards = ({
           </div>
         </>
       )}
-    </motion.div>
+    </div>
   );
 };
 

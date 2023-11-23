@@ -25,6 +25,9 @@ import pyIcon from "./tech/py.png";
 import nodeIcon from "./tech/node.webp";
 import neoIcon from "./tech/neo.png";
 import raspIcon from "./tech/raspi.png";
+import aws1 from "./tech/aws1.png";
+import google from "./tech/google.png";
+import intel from "./tech/intel.png";
 
 import flutterIcon from "./tech/flutter.png";
 import notionIcon from "./tech/notion.png";
@@ -94,4 +97,7 @@ export {
   pineapple,
   pineappleHover,
   bs,
+  aws1,
+  google,
+  intel,
 };
