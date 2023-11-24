@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Projects = () => {
-  const [active, setActive] = useState(2);
+  const [active, setActive] = useState(0);
 
   // Settings for the slick carousel
   const sliderSettings = {
@@ -52,6 +52,7 @@ const Projects = () => {
                 index={index}
                 {...project}
                 active={active}
+                url={project.url}
                 handleClick={setActive}
               />
             </div>

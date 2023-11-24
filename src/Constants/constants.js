@@ -139,9 +139,8 @@ const projects = [
     description:
       "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
     image: pawsitivePrototype,
-    source_code_link:
-      "https://play.google.com/store/apps/details?id=com.payfazz.android",
-    demo_link: "https://arasarmemory.netlify.app/",
+    url: "https://play.google.com/store/apps/details?id=com.payfazz.android",
+
     tags: [
       {
         name: "react",
@@ -163,34 +162,7 @@ const projects = [
     description:
       "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
     image: calculator,
-    source_code_link:
-      "https://play.google.com/store/apps/details?id=com.app.banksathi",
-    demo_link: "https://bl33hscalculator.netlify.app/",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-  },
-  {
-    id: 3,
-    name: "PAYFAZZ Master Agen",
-    description:
-      "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
-    image: pawsitivePrototype,
-    source_code_link:
-      "https://play.google.com/store/apps/details?id=com.safecash.transferapp&hl=enl&gl=US",
-    demo_link:
-      "https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
+    url: "https://play.google.com/store/apps/details?id=com.app.banksathi",
     tags: [
       {
         name: "react",
@@ -212,9 +184,7 @@ const projects = [
     description:
       "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
     image: calculator,
-    source_code_link:
-      "https://play.google.com/store/apps/details?id=com.binary.empirecinema",
-    demo_link: "https://bl33hscalculator.netlify.app/",
+    url: "https://play.google.com/store/apps/details?id=com.binary.empirecinema",
     tags: [
       {
         name: "react",
@@ -229,81 +199,6 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-  },
-
-  {
-    id: 5,
-    name: "Capshun",
-    description:
-      "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
-    image: pawsitivePrototype,
-    source_code_link:
-      "https://play.google.com/store/apps/details?id=com.capshun.co&hl=enl&gl=US",
-    demo_link: "https://arasarmemory.netlify.app/",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-  },
-  {
-    id: 6,
-    name: "Commentr",
-    description:
-      "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
-    image: pawsitivePrototype,
-    source_code_link:
-      "https://play.google.com/store/apps/details?id=com.commentrapp.commentr",
-    demo_link:
-      "https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
-  },
-  {
-    id: 7,
-    name: "Star Cinemas",
-    description:
-      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-    image: calculator,
-    source_code_link:
-      "https://play.google.com/store/apps/details?id=tech.brij.star_cinema&hl=en_IE&gl=US",
-    demo_link: "https://bl33hscalculator.netlify.app/",
-  },
-
-  {
-    id: 8,
-    name: "GOGO Cinemas",
-    description:
-      "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
-    image: pawsitivePrototype,
-    source_code_link: "https://www.gogocinema.com/",
-    demo_link: "https://arasarmemory.netlify.app/",
-  },
-  {
-    id: 9,
-    name: "WooYourBoo",
-    description:
-      "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
-    image: pawsitivePrototype,
-    source_code_link: "https://www.wooyourboo.com/app",
-    demo_link:
-      "https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
-  },
-  {
-    id: 10,
-    name: "High Vibe",
-    description:
-      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
-    image: calculator,
-    source_code_link: "https://www.highvibe.network/vibes",
-    demo_link: "https://bl33hscalculator.netlify.app/",
   },
   {
     id: 11,
@@ -311,9 +206,92 @@ const projects = [
     description:
       "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
     image: pawsitivePrototype,
-    source_code_link:
-      "https://play.google.com/store/search?q=peggy&c=apps&hl=enl&gl=US",
-    demo_link: "https://bl33hscalculator.netlify.app/",
+    url: "https://play.google.com/store/search?q=peggy&c=apps&hl=enl&gl=US",
+  },
+  {
+    id: 3,
+    name: "PAYFAZZ Master Agen",
+    description:
+      "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
+    image: pawsitivePrototype,
+    url: "https://play.google.com/store/apps/details?id=com.safecash.transferapp&hl=enl&gl=US",
+
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+  },
+  {
+    id: 5,
+    name: "Capshun",
+    description:
+      "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
+    image: pawsitivePrototype,
+    url: "https://play.google.com/store/apps/details?id=com.capshun.co&hl=enl&gl=US",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: "Star Cinemas",
+    description:
+      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+    image: calculator,
+    url: "https://play.google.com/store/apps/details?id=tech.brij.star_cinema&hl=en_IE&gl=US",
+  },
+  {
+    id: 10,
+    name: "High Vibe",
+    description:
+      "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+    image: calculator,
+    url: "https://www.highvibe.network/vibes",
+  },
+  {
+    id: 8,
+    name: "GOGO Cinemas",
+    description:
+      "A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
+    image: pawsitivePrototype,
+    url: "https://www.gogocinema.com/",
+  },
+  {
+    id: 9,
+    name: "WooYourBoo",
+    description:
+      "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
+    image: pawsitivePrototype,
+    url: "https://www.wooyourboo.com/app",
+  },
+  {
+    id: 6,
+    name: "Commentr",
+    description:
+      "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
+    image: pawsitivePrototype,
+    url: "https://play.google.com/store/apps/details?id=com.commentrapp.commentr",
   },
   {
     id: 12,
@@ -321,8 +299,7 @@ const projects = [
     description:
       "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
     image: calculator,
-    source_code_link: "https://www.denzilmachado.com/",
-    demo_link: "https://bl33hscalculator.netlify.app/",
+    url: "https://www.denzilmachado.com/",
   },
   {
     id: 13,
@@ -330,8 +307,7 @@ const projects = [
     description:
       "A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
     image: pawsitivePrototype,
-    source_code_link: "",
-    demo_link: "https://bl33hscalculator.netlify.app/",
+    url: "",
   },
 ];
 
