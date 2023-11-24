@@ -6,6 +6,10 @@ const ScholarshipCards = ({ skill, index }) => {
       initial={{ scale: 0.8 }}
       style={{ zIndex: `${index + 1}` }}
       key={index}
+      onClick={(e) => {
+        e.preventDefault();
+        window.open(skill.url, "_blank");
+      }}
       className="card w-[300px] h-[300px] flex flex-col items-center  bg-primary-400 rounded-xl border-4 border-primary-600 cursor-pointer"
     >
       <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col">
