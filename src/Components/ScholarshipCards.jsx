@@ -10,7 +10,7 @@ const ScholarshipCards = ({ skill, index }) => {
         e.preventDefault();
         window.open(skill.url, "_blank");
       }}
-      className="card w-[300px] h-[300px] flex flex-col items-center  bg-primary-400 rounded-xl border-4 border-primary-600 cursor-pointer"
+      className="card w-[300px] h-[360px] flex flex-col items-center  bg-primary-400 rounded-xl border-4 border-primary-600 cursor-pointer"
     >
       <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col">
         <img
@@ -27,14 +27,37 @@ const ScholarshipCards = ({ skill, index }) => {
         >
           {skill.title}
         </span>
+        <div>
+          <span
+            className="text-center bg-primary-400 text-grayscale-950 rounded-xl text-sm"
+            style={{
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: "400",
+              fontWeight: "bold",
+            }}
+          >
+            Issued Data:
+          </span>
+
+          <span
+            className="text-center bg-primary-400 text-grayscale-950 rounded-xl text-sm p-1"
+            style={{
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: "400",
+            }}
+          >
+            {skill.issueDate}
+          </span>
+        </div>
+
         <span
-          className="text-center bg-primary-400 text-grayscale-950 rounded-xl text-sm p-4"
+          className="text-center bg-primary-400 text-grayscale-950 rounded-xl text-sm p-4 "
           style={{
             fontFamily: "Poppins, sans-serif",
             fontWeight: "400",
           }}
         >
-          Issued Data: {skill.issueDate}
+          {skill.description}
         </span>
       </div>
     </m.div>

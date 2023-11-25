@@ -2,11 +2,11 @@
 import kaxpIcon from "./logo/logo_single.png";
 import kaxpIconFull from "./logo/kaxp.png";
 
-import fazz from "./logo/fazz.png";
 import bn from "./logo/bn.png";
 import deqode from "./logo/deqode.png";
 import stealth from "./logo/stealth.png";
 import bs from "./logo/banksathi.webp";
+import fazz from "./logo/fazz.png";
 
 // Technologies
 import htmlIcon from "./tech/html.png";
@@ -42,6 +42,24 @@ import downloadHover from "./icons/downloadHover.png";
 import resume from "./icons/resume.png";
 import pineapple from "./icons/pineapple.png";
 import pineappleHover from "./icons/pineappleHover.png";
+import peggy from "./icons/peggy.svg";
+import capshun from "./icons/capshun.webp";
+import commentr from "./icons/commentr.webp";
+import denzil from "./icons/denzil.svg";
+import empire from "./icons/empire.webp";
+import gogo from "./icons/gogo.svg";
+import hvn from "./icons/hvn.svg";
+import pma from "./icons/pma.webp";
+import star from "./icons/star.webp";
+import unpaniq from "./icons/unpaniq.png";
+import woo from "./icons/woo.png";
+import peggy1 from "./icons/peggy.webp";
+import appstore from "./icons/appstore.png";
+import playstore from "./icons/playstore.png";
+import web from "./icons/web.png";
+import wall from "./icons/brick-wall.png";
+import cancelled from "./icons/cancelled.png";
+import kozo from "./icons/kozo.png";
 
 import close from "./close.svg";
 import menu from "./menu.svg";
@@ -100,4 +118,22 @@ export {
   aws1,
   google,
   intel,
+  peggy,
+  capshun,
+  commentr,
+  denzil,
+  empire,
+  gogo,
+  hvn,
+  pma,
+  star,
+  unpaniq,
+  woo,
+  peggy1,
+  appstore,
+  playstore,
+  web,
+  wall,
+  cancelled,
+  kozo,
 };

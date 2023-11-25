@@ -16,7 +16,7 @@ const Experience = () => {
     <>
       <SectionTitle
         title="Work Experience."
-        subtitle=" What I've done so far"
+        subtitle="Companies I have worked for"
       />
 
       <div className="mt-20 flex flex-col">

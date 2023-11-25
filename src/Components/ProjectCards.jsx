@@ -1,7 +1,6 @@
-import { githubIcon, pineapple, pineappleHover } from "../assets";
-import { fadeIn } from "../utils/motion";
+import { m } from "framer-motion";
 
-import React from "react";
+import { web, appstore, playstore, wall, cancelled } from "../assets";
 
 const ProjectCards = ({
   id,
@@ -12,111 +11,103 @@ const ProjectCards = ({
   demo,
   index,
   active,
-  url,
+  webUrl,
   handleClick,
+  playstoreUrl,
+  appstoreUrl,
+  isActive,
 }) => {
   return (
-    <div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className={`relative ${
-        active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
-      } flex items-center justify-center min-w-[170px] 
-          h-[420px] cursor-pointer card-shadow`}
+    <m.div
+      initial={{ scale: 0.8 }}
+      style={{ zIndex: `${index + 1}` }}
+      key={index}
       //   onClick={() => handleClick(id)}
       onClick={(e) => {
-        e.preventDefault();
-        window.open(url, "_blank");
+        // e.preventDefault();
+        // window.open(webUrl, "_blank");
       }}
+      className="relative card w-[300px] h-[380px] flex flex-col items-center  bg-primary-400 rounded-xl border-4 border-primary-600"
     >
-      <div
-        className="absolute top-0 left-0 z-10 bg-jetLight 
-          h-full w-full opacity-[0.5] rounded-[24px]"
-      ></div>
+      <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col mt-[8px]">
+        <img
+          className="h-[50px] flex justify-center items-center w-[50px]  bg-primary-600  p-1 object-contain"
+          src={image}
+          alt={name}
+        />
+        <span
+          className="text-xl text-center"
+          style={{
+            fontFamily: "Poppins, sans-serif",
+            fontWeight: "bold",
+          }}
+        >
+          {name}
+        </span>
+        <span
+          className="text-center bg-primary-400 text-grayscale-950 rounded-xl text-sm p-4 "
+          style={{
+            fontFamily: "Poppins, sans-serif",
+            fontWeight: "400",
+          }}
+        >
+          {description}
+        </span>
 
-      <img
-        src={image}
-        alt={name}
-        className="absolute w-full h-full object-cover rounded-[24px]"
-      />
-
-      {active !== id ? (
-        <div className="flex items-center justify-start pr-[4.5rem]">
-          <h3
-            className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
-            whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
-            absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
-            leading-none z-20"
+        {!isActive && (
+          <text
+            className="text-center p-4 mt-[-20px]"
+            style={{
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: "500",
+              color: "red",
+            }}
           >
-            {name}
-          </h3>
+            {"Project Stalled"}
+          </text>
+        )}
+
+        <div
+          className={`mx-[16px] mb-[16px] mt-[16px] flex flex-row cursor-pointer mt-[10px] absolute bottom-0 w-full justify-center items-center`}
+        >
+          {playstoreUrl && (
+            <img
+              src={playstore}
+              alt="playstore"
+              className="download-btn w-8 h-8 object-contain mx-[8px] mt-auto"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(playstoreUrl, "_blank");
+              }}
+            />
+          )}
+
+          {appstoreUrl && (
+            <img
+              src={appstore}
+              alt="appstore"
+              className="download-btn w-8 h-8 object-contain  mx-[8px] mt-auto"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(appstoreUrl, "_blank");
+              }}
+            />
+          )}
+
+          {webUrl && (
+            <img
+              src={web}
+              alt="web"
+              className="download-btn w-8 h-8 object-contain  mx-[8px] mt-auto"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(webUrl, "_blank");
+              }}
+            />
+          )}
         </div>
-      ) : (
-        <>
-          <div
-            className="absolute bottom-0 p-8 justify-start w-full 
-                flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20"
-          >
-            <div className="absolute inset-0 flex justify-end m-3">
-              <div
-                onClick={() => window.open(repo, "_blank")}
-                className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
-                      flex justify-center items-center cursor-pointer
-                      sm:opacity-[0.9] opacity-[0.8]"
-              >
-                <img
-                  src={githubIcon}
-                  alt="source code"
-                  className="w-4/5 h-4/5 object-contain"
-                />
-              </div>
-            </div>
-
-            <h2
-              className="font-bold sm:text-[32px] text-[24px] 
-                  text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]"
-            >
-              {name}
-            </h2>
-            <p
-              className="text-silver sm:text-[14px] text-[12px] 
-                  max-w-3xl sm:leading-[24px] leading-[18px]
-                  font-poppins tracking-[1px]"
-            >
-              {description}
-            </p>
-            <button
-              className="live-demo flex justify-between 
-                  sm:text-[16px] text-[14px] text-timberWolf 
-                  font-bold font-beckman items-center py-5 pl-2 pr-3 
-                  whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px] 
-                  w-[125px] h-[46px] rounded-[10px] glassmorphism 
-                  sm:mt-[22px] mt-[16px] hover:bg-battleGray 
-                  hover:text-eerieBlack transition duration-[0.2s] 
-                  ease-in-out"
-              onClick={() => window.open(demo, "_blank")}
-              onMouseOver={() => {
-                document
-                  .querySelector(".btn-icon")
-                  .setAttribute("src", pineappleHover);
-              }}
-              onMouseOut={() => {
-                document
-                  .querySelector(".btn-icon")
-                  .setAttribute("src", pineapple);
-              }}
-            >
-              <img
-                src={pineapple}
-                alt="pineapple"
-                className="btn-icon sm:w-[34px] sm:h-[34px] 
-                      w-[30px] h-[30px] object-contain"
-              />
-              LIVE DEMO
-            </button>
-          </div>
-        </>
-      )}
-    </div>
+      </div>
+    </m.div>
   );
 };
 
