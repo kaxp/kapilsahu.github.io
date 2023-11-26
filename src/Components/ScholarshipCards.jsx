@@ -1,5 +1,4 @@
 import { m } from "framer-motion";
-
 import { useState, useEffect } from "react";
 
 const ScholarshipCards = ({ skill, index }) => {

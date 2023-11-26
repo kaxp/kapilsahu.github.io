@@ -1,6 +1,6 @@
 import { m, LazyMotion, domAnimation } from "framer-motion";
 
-const SkillsCards = ({ data }) => {
+const SkillsCards = ({ data, cardHeight }) => {
   return (
     <div className="flex">
       <LazyMotion features={domAnimation} strict>
@@ -16,9 +16,13 @@ const SkillsCards = ({ data }) => {
               repeatType: "loop",
               ease: "linear",
             }}
-            style={{ zIndex: `${index + 1}`, transition: "all 0.6s" }}
+            style={{
+              zIndex: `${index + 1}`,
+              transition: "all 0.6s",
+              height: `${cardHeight}px`,
+            }}
             key={index}
-            className="card w-[300px] h-[300px] flex flex-col items-center  bg-primary-400 rounded-xl border-4 border-primary-600 cursor-pointer"
+            className="card w-[300px] flex flex-col items-center  bg-primary-400 rounded-xl border-4 border-primary-600 cursor-pointer"
           >
             <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col">
               <img
