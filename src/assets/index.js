@@ -1,6 +1,8 @@
 // Logo
 import kaxpIcon from "./logo/logo_single.png";
 import kaxpIconFull from "./logo/kaxp.png";
+import kapilMetaSolo from "./logo/kapil_meta_solo.png";
+import kapilMeta from "./logo/kapil_meta.png";
 
 import bn from "./logo/bn.png";
 import deqode from "./logo/deqode.png";
@@ -136,4 +138,6 @@ export {
   wall,
   cancelled,
   kozo,
+  kapilMetaSolo,
+  kapilMeta,
 };
