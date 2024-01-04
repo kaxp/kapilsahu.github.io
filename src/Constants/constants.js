@@ -502,7 +502,7 @@ const scholarships = [
     icon: google,
     title: "Google India Challenge Scholarship",
     issueDate: "Aug 2018",
-    url: "https://drive.google.com/file/d/1kzWhIC8SM3kwDkFrCJGU573ZvT0KsRL9/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1_pr7ZYXwyEW5DV-S8_p_D9niud-G45qi/view?usp=sharing",
     description:
       "The Google India Challenge Scholarship for Android Development is an Android app development course aimed at fostering learning and skill development in the mobile field.",
   },
