@@ -16,7 +16,6 @@ import {
 import {
   avatar,
   awsIcon,
-  calculator,
   cssIcon,
   eslintIcon,
   figmaIcon,
@@ -27,7 +26,6 @@ import {
   jsIcon,
   neoIcon,
   nodeIcon,
-  pawsitivePrototype,
   psqlIcon,
   pyIcon,
   raspIcon,
@@ -137,7 +135,7 @@ const introduction = {
   text: [
     "Hello there! I'm delighted to have you here :)",
 
-    "I'm Kapil Sahu, a 27-year-old software engineer situated in India. My journey in the tech world is fueled by a profound passion for mobile and web technologies.",
+    "I'm Kapil Sahu, a 28-year-old software engineer from India. My journey in the tech world is fueled by a profound passion for mobile and web technologies.",
 
     "When I'm not immersed in code, you'll often find me lost in the pages of a good book. I also happen to be a devoted cat enthusiast and find joy in the occasional video game session.",
 
@@ -202,18 +200,6 @@ const projects = [
     isActive: true,
   },
   {
-    id: 4,
-    name: "PAYFAZZ Master Agen",
-    description:
-      "PAYFAZZ Master Agent is an all-in-one application designed for seamless financial transactions allowing you to transfer funds, send and withdraw cash, top-up, pay water and electricity bills, etc safely and swiftly.",
-    image: pma,
-    webUrl: "",
-    playStoreUrl:
-      "https://play.google.com/store/apps/details?id=com.safecash.transferapp&hl=enl&gl=US",
-    appStoreUrl: "",
-    isActive: true,
-  },
-  {
     id: 5,
     name: "Peggy",
     description:
@@ -271,6 +257,18 @@ const projects = [
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=tech.brij.star_cinema&hl=en_IE&gl=US",
     appStoreUrl: "https://apps.apple.com/us/app/star-cinemas/id1568091870",
+    isActive: true,
+  },
+  {
+    id: 4,
+    name: "PAYFAZZ Master Agen",
+    description:
+      "PAYFAZZ Master Agent is an all-in-one application designed for seamless financial transactions allowing you to transfer funds, send and withdraw cash, top-up, pay water and electricity bills, etc safely and swiftly.",
+    image: pma,
+    webUrl: "",
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.safecash.transferapp&hl=enl&gl=US",
+    appStoreUrl: "",
     isActive: true,
   },
   {
@@ -479,19 +477,11 @@ const experiences = [
     url: "https://fazz.com/",
   },
   {
-    title: "Solution Engineer",
-    company_name: "Deqode",
-    icon: deqode,
-    iconBg: "#FFFFFF",
-    date: "Sep 2020 - Oct 2021",
-    url: "https://deqode.com/",
-  },
-  {
     title: "Mobile Developer",
     company_name: "Binary Numbers IO",
     icon: bn,
     iconBg: "#FFFFFF",
-    date: "Aug 2018 - Aug 2020",
+    date: "Aug 2018 - Aug 2021",
     url: "https://binarynumbers.io/",
   },
 ];
