@@ -135,7 +135,7 @@ const introduction = {
   text: [
     "Hello there! I'm delighted to have you here :)",
 
-    "I'm Kapil Sahu, a 28-year-old software engineer from India. My journey in the tech world is fueled by a profound passion for mobile and web technologies.",
+    "I'm Kapil Sahu, a software engineer with a deep passion for creating exceptional user experiences. My journey in tech is driven by a love for both mobile and web technologies.",
 
     "When I'm not immersed in code, you'll often find me lost in the pages of a good book. I also happen to be a devoted cat enthusiast and find joy in the occasional video game session.",
 
