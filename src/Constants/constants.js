@@ -167,7 +167,7 @@ const projects = [
     id: 1,
     name: "Fazz Agen",
     description:
-      "Fazz Agen is a trusted platform that empowers users to sell various digital products and PPOB (Payment Point Online Banking) services, including mobile credits, bill payments, e-wallet top-ups, and bank transfers.",
+      "Fazz Agen is a financial services agent network enabling micro businesses owners (warung) in Indonesia to carry out money transfers, cash withdrawals, recharge and bill payments through an all-in-one platform.",
     image: fazz,
     webUrl: "",
     playStoreUrl:
