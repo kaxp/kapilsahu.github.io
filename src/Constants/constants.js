@@ -63,6 +63,8 @@ import {
   playstore,
   web,
   kozo,
+  scoreup,
+  banksathiSdk,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -189,6 +191,18 @@ const projects = [
   },
   {
     id: 3,
+    name: "ScoreUp",
+    description:
+      "ScoreUp, a credit improvement app that gives users their instant credit score and guides them with personalised step-by-step video plans to improve it based on their profile and financial factors.",
+    image: scoreup,
+    webUrl: "",
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=club.app.scoreup",
+    appStoreUrl: "",
+    isActive: true,
+  },
+  {
+    id: 4,
     name: "Empire Cinemas",
     description:
       "Empire Cinemas provides a convenient and streamlined movie experience for audiences in Lebanon, Saudi Arabia, and Iraq. The chain offers diverse movie experiences, including formats like DOLBY ATMOS, SCREEN X, IMAX, SPHERA, 4DX, MINIS, PREMIERE, FLEXOUND, and more.",
@@ -210,6 +224,18 @@ const projects = [
       "https://play.google.com/store/apps/details?id=com.peggy.mobile&hl=enl&gl=US",
     appStoreUrl:
       "https://apps.apple.com/in/app/peggy-buy-and-sell-art/id1584224807",
+    isActive: true,
+  },
+  {
+    id: 16,
+    name: "BankSathi SDK",
+    description:
+      "The BankSathi SDK is a private SDK that allows partners to integrate banking and financial products into their mobile apps. It's deployed on Maven Central Repository",
+    image: banksathiSdk,
+    webUrl:
+      "https://central.sonatype.com/artifact/com.banksaathi.advisor_sdk/flutter_release",
+    playStoreUrl: "",
+    appStoreUrl: "",
     isActive: true,
   },
   {
@@ -260,7 +286,7 @@ const projects = [
     isActive: true,
   },
   {
-    id: 4,
+    id: 10,
     name: "PAYFAZZ Master Agen",
     description:
       "PAYFAZZ Master Agent is an all-in-one application designed for seamless financial transactions allowing you to transfer funds, send and withdraw cash, top-up, pay water and electricity bills, etc safely and swiftly.",
@@ -272,7 +298,7 @@ const projects = [
     isActive: true,
   },
   {
-    id: 10,
+    id: 11,
     name: "WooYourBoo",
     description:
       "WooYourBoo is a relationship app that uses love languages to enhance communication between couples, offering enjoyable features like quizzes, activities, rewards, and gamification for effective relationship-building and reconnection.",
@@ -283,7 +309,7 @@ const projects = [
     isActive: true,
   },
   {
-    id: 11,
+    id: 12,
     name: "GOGO Cinemas",
     description:
       "GogoCinemas is a platform providing a unique cinema experience with options like Private Screening for a VIP experience, Crowdsourced Screening to enjoy movies with friends, and Confirmed Screening for instant confirmation with pre-set tickets.",
@@ -294,7 +320,7 @@ const projects = [
     isActive: false,
   },
   {
-    id: 12,
+    id: 13,
     name: "Commentr",
     description:
       "Commentr is a streamlined social media app that allows users to earn money and rewards by engaging in discussions and commenting on posts.",
@@ -306,7 +332,7 @@ const projects = [
     isActive: true,
   },
   {
-    id: 13,
+    id: 14,
     name: "Denzil Machado",
     description:
       "Denzil Machado is a seasoned creative professional with 20+ years of experience in design, photography, film, and advertising. ",
@@ -317,7 +343,7 @@ const projects = [
     isActive: true,
   },
   {
-    id: 14,
+    id: 15,
     name: "Unpaniq",
     description:
       "Unpaniq is a system for activating medical emergency protocols. With a simple tap, it connects users with the nearest medical facilities.",

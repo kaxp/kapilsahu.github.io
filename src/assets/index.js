@@ -62,6 +62,8 @@ import web from "./icons/web.png";
 import wall from "./icons/brick-wall.png";
 import cancelled from "./icons/cancelled.png";
 import kozo from "./icons/kozo.png";
+import scoreup from "./icons/scoreup.png";
+import banksathiSdk from "./icons/banksathiSdk.png";
 
 import close from "./close.svg";
 import menu from "./menu.svg";
@@ -140,4 +142,6 @@ export {
   kozo,
   kapilMetaSolo,
   kapilMeta,
+  scoreup,
+  banksathiSdk,
 };
