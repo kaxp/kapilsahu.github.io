@@ -491,7 +491,7 @@ const experiences = [
     company_name: "Banksathi",
     icon: bs,
     iconBg: "#ebfdf6",
-    date: "Mar 2023 - Present",
+    date: "Mar 2023 - Sep 2025",
     url: "banksathi.com",
   },
   {
